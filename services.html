@@ -64,9 +64,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Our Services</h1>
-              <p class="mb-0">I provide creative solutions, including design, development, and expert consulting
-                services. Let us help you bring your ideas to life with innovative approaches and solutions.</p>
+              <h1>My Portfolio</h1>
+              <p>Discover my projects across graphic design, web development, copywriting, and UI/UX design.</p>
             </div>
           </div>
         </div>
@@ -75,54 +74,90 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Services</li>
+            <li class="current">Portfolio</li>
           </ol>
         </div>
       </nav>
     </div><!-- End Page Title -->
-    <!-- Services Section -->
-    <section id="services" class="services section">
-      <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-        <div class="row gy-4 justify-content-center">
 
-          <!-- Service Item 1 -->
-          <div class="col-lg-6 col-md-8" data-aos="fade-up" data-aos-delay="100">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container">
+        <!-- Tabs for Portfolio Categories -->
+        <ul class="nav nav-tabs justify-content-center" id="portfolioTabs" role="tablist">
+          <li class="nav-item">
+            <button class="nav-link active" id="graphics-tab" data-bs-toggle="tab" data-bs-target="#graphics"
+              type="button" role="tab">Graphic Designs</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" id="web-tab" data-bs-toggle="tab" data-bs-target="#web" type="button"
+              role="tab">Web
+              Development</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" id="copywriting-tab" data-bs-toggle="tab" data-bs-target="#copywriting"
+              type="button" role="tab">Copywriting</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux" type="button"
+              role="tab">UI/UX Design</button>
+          </li>
+        </ul>
 
-            <div class="service-item position-relative p-4"
-              style="background: #0c0202; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); padding: 30px;">
-              <div class="icon mb-3" style="font-size: 3rem; color: #fff; display: flex; gap: 20px;">
-                <i class="bi bi-laptop"></i> <!-- Web Development -->
-                <i class="bi bi-pencil"></i> <!-- Graphic Design -->
-                <i class="bi bi-pencil-square"></i> <!-- Content Writing -->
-                <i class="bi bi-envelope"></i> <!-- Email Copywriting -->
+        <!-- Tab Content -->
+        <div class="tab-content" id="portfolioTabsContent">
+          <!-- Graphic Designs -->
+          <div class="tab-pane fade show active" id="graphics" role="tabpanel">
+            <div class="row">
+              <div class="col-md-4 portfolio-item">
+                <img src="assets/img/portfolio/graphic1.jpg" alt="Graphic Design">
+                <h4>Creative Poster Design</h4>
+                <p>A vibrant poster designed for XYZ Campaign.</p>
               </div>
-
-              <p style="font-size: 1.1rem; color: #fff;">
-                I specialize in web development, graphic design, content writing, email copywriting, and innovative
-                digital solutions
-                to help brands stand out and make an impact.
-              </p>
-
-              <br>
-              Check out my profiles:
-              <a href="https://github.com/blinkwilly" target="_blank"
-                style="color: #fff; text-decoration: underline;">GitHub</a> |
-              <a href="https://www.linkedin.com/in/chuks-fejoku" target="_blank"
-                style="color: #fff; text-decoration: underline;">LinkedIn</a>
-
-              </p>
+              <!-- Add more graphic design items here -->
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
+          <!-- Web Development -->
+          <div class="tab-pane fade" id="web" role="tabpanel">
+            <div class="row">
+              <div class="col-md-4 portfolio-item">
+                <img src="assets/img/portfolio/web1.jpg" alt="Web Development">
+                <h4>E-Commerce Website</h4>
+                <p>Developed a fully responsive e-commerce platform for ABC Store.</p>
+              </div>
+              <!-- Add more web development items here -->
+            </div>
+          </div>
+
+          <!-- Copywriting -->
+          <div class="tab-pane fade" id="copywriting" role="tabpanel">
+            <div class="row">
+              <div class="col-md-4 portfolio-item">
+                <img src="assets/img/portfolio/copy1.jpg" alt="Copywriting">
+                <h4>Email Marketing Campaign</h4>
+                <p>Designed and executed a successful email campaign for product launch.</p>
+              </div>
+              <!-- Add more copywriting items here -->
+            </div>
+          </div>
+
+          <!-- UI/UX Design -->
+          <div class="tab-pane fade" id="uiux" role="tabpanel">
+            <div class="row">
+              <div class="col-md-4 portfolio-item">
+                <img src="assets/img/portfolio/uiux1.jpg" alt="UI/UX Design">
+                <h4>Mobile App Prototype</h4>
+                <p>Designed a user-friendly prototype for a mobile banking app.</p>
+              </div>
+              <!-- Add more UI/UX design items here -->
+            </div>
+          </div>
         </div>
       </div>
-    </section><!-- End Services Section -->
-
-
-
+    </section><!-- End Portfolio Section -->
 
   </main>
-
   <footer id="footer" class="footer dark-background">
     <div class="container">
       <h3 class="sitename">Chuks</h3>
